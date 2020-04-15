@@ -89,7 +89,8 @@ bool test_collision( Vector2D* n, Circle* c_hb, SDL_Rect* box_hb )
 	//Check
 	if( distance( &c_p, &c_hb->pos ) <= (double)c_hb->radius )
 	{
-		n->set_vector( &p2p_vector( &c_p, &c_hb->pos ) );
+		Vector2D vector = p2p_vector( &c_p, &c_hb->pos );
+		n->set_vector( &vector );
 		normalize( n );
 
 		is_collided = true;
