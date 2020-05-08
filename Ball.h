@@ -3,8 +3,8 @@
 #include <string>
 #include <cmath>
 #include <vector>
-#include "Engine.h"
-#include "Vector2D.h"
+#include "engine/Engine.h"
+#include "engine/Vector2D.h"
 #include "Circle.h"
 
 const double ACCELERATION = 0.01;

@@ -2,9 +2,9 @@
 #include <SDL.h>
 #include <vector>
 #include <cmath>
-#include "Engine.h"
+#include "engine/Engine.h"
 #include "Ball.h"
-#include "Collision.h"
+#include "engine/Collision.h"
 
 int main( int argc, char* args[] )
 {
